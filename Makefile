@@ -9,7 +9,7 @@ clean:
 create:
 	mkdir target
 
-CXX = g++ --gcc-toolchain=/usr/local -std=c++11 
+CXX = g++ --gcc-toolchain=/usr/local -std=c++17 
 
 compile: 
 	${CXX} src/main.cpp -o target/wavecpp
